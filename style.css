@@ -10,6 +10,10 @@
 }
 
 .origami{
+    border: 2px solid black;
+    border-radius: 50px;
+
+    width: 310px;
     background-color: rgb(147, 241, 210);
     font-family: cursive;
 }
@@ -22,3 +26,14 @@
 h3 {
     background-color: rgb(147, 241, 210);
 }
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.grid{
+    background-color: whitesmoke;
+}
+
