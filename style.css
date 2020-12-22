@@ -18,11 +18,6 @@
     font-family: cursive;
 }
 
-.menu{
-    display: flex;
-    margin-left: 60%;
-}
-
 h3 {
     background-color: rgb(147, 241, 210);
 }
@@ -37,4 +32,35 @@ h3 {
     background-color: #ffffff;
 }
 
+/*a:link{
+    color:white
+}
+
+a:visited{
+    color:white
+}
+*/
+
+.header{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,+30%);
+}
+
+.origami:hover{
+    transform: scale(1.2);
+}
+
+.origami:hover p{
+    opacity: 0;
+}
+
+.origami:hover li{
+    opacity: 0;
+}
+
+.origami:hover img{
+    opacity: 1;
+    transform: translate(-0%,+50%);
+}
 
