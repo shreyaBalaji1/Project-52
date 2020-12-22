@@ -5,12 +5,12 @@
 
 .grid img{
     display: flex;
-    border: 2px solid black;
+    border: 2px solid #000000;
     border-radius: 50px;
 }
 
 .origami{
-    border: 2px solid black;
+    border: 2px solid #000000;
     border-radius: 50px;
 
     width: 310px;
@@ -34,6 +34,7 @@ h3 {
 }
 
 .grid{
-    background-color: whitesmoke;
+    background-color: #ffffff;
 }
+
 
