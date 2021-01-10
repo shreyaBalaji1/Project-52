@@ -1,6 +1,13 @@
 .header{
     display: flex;
     justify-content: center;
+    padding-left: 545px;
+}
+
+.menu{
+    padding-left: 60px;
+    padding-top: 60px;
+    margin-left: 450px;
 }
 
 .grid img{
@@ -32,14 +39,13 @@ h3 {
     background-color: #ffffff;
 }
 
-/*a:link{
-    color:white
+a:link{
+    color:black;
+}
+a:visited{
+    color:black;
 }
 
-a:visited{
-    color:white
-}
-*/
 
 .header{
     position: absolute;
@@ -63,4 +69,3 @@ a:visited{
     opacity: 1;
     transform: translate(-0%,+50%);
 }
-
